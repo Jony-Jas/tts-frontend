@@ -21,7 +21,7 @@ function Messages() {
               <PulseLoader color={"#368080"} size={15} />
             ) : (
               <ReactAudioPlayer
-                src={`http://localhost:3002/audio/${message.voice}`}
+                src={`http://backend-texttospeech.pagekite.me/audio/${message.voice}`}
                 controls
                 autoPlay
               />
